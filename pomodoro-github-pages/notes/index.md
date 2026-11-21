@@ -5,3 +5,4 @@
 - [標準執行流程 (Standard Workflow)](wiki/methods/standard-workflow.md)
 - [大學生備考與寫作策略 (Student Study Strategies)](wiki/methods/student-study-strategies.md)
 - [適用邊界與常見誤區 (Drawbacks & Limits)](wiki/methods/drawbacks-and-limits.md)
+- [Benefits of Using the Pomodoro Technique](wiki/sources/06-lifeat-benefits.md)
