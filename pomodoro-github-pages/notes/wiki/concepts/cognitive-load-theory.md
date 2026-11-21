@@ -1,0 +1,2 @@
+# 認知負荷理論 (Cognitive Load Theory) 與番茄鐘機制
+`認知負荷理論 (Cognitive Load Theory)` 指出人類工作記憶容量有限。將學習切割為 25 分鐘短區間能防止 `內在認知負荷 (Intrinsic Cognitive Load)` 超載，並利用 5 分鐘休息促進 `長期記憶 (Long-Term Memory)` 鞏固 [來源：PMC 2025 綜述、BCU 2025]。

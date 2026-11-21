@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>番茄鐘工作法（Pomodoro Technique）大學生與研究生實戰教學簡報</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="deck">
+
+    <!-- Slide 1: 封面 -->
+    <section class="slide cover-center active">
+      <div class="tomato-icon">🍅</div>
+      <span class="tag">大學生與研究生實戰教學簡報</span>
+      <h1>番茄鐘工作法<br>The Pomodoro Technique</h1>
+      <p class="lead">從認知心理學機制到實證研究數據：打造高效備考與論文寫作節奏</p>
+      <div class="meta-box">
+        📚 <strong>知識庫來源（LLM Wiki）：</strong>嚴格引用 5 篇實證與官方文獻（存於 <code>notes/wiki/</code>）<br>
+        🎯 <strong>核心主軸：</strong>認知負荷理論 ・ 自主學習理論 ・ 行為強化與分散練習
+      </div>
+    </section>
+
+    <!-- Slide 2: 起源與核心系統哲學 -->
+    <section class="slide">
+      <div>
+        <span class="tag">01 / 系統起源與核心哲學</span>
+        <h2>不只是計時器，而是一套時間關係系統</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>🕰️ 1987 年的廚房計時器實驗</h3>
+            <p>創始人 <strong>Francesco Cirillo</strong> 在大學備考時為克服分心，使用番茄造型廚房計時器挑戰「先專注 2 分鐘」。經測試 10 分鐘太短、1 小時太疲乏後，確立 <strong>25 分鐘專注 + 5 分鐘休息</strong> 黃金比例 <span class="citation-badge">Verywell Mind 2026</span>。</p>
+          </div>
+          <div class="card" style="background: var(--primary-light); border-color: #f8c9c4;">
+            <h3>🤝 從「掠食者」轉化為「盟友」</h3>
+            <p>官方強調番茄鐘「More than 25 minutes」——透過 <strong>規劃（Plan）→ 專注（Focus）→ 反思（Reflect）</strong> 三循環，幫助學習者客觀預估精力，消除死線焦慮，與時間建立健康關係 <span class="citation-badge">Pomodoro 官網</span>。</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-footer">
+        <span>Wiki 溯源：notes/wiki/sources/02-pomodoro-official.md & 04-verywell-mind-2026.md</span>
+        <span>1 / 9</span>
+      </div>
+    </section>
+
+    <!-- Slide 3: 認知心理學機制 (1) 認知負荷理論 -->
+    <section class="slide">
+      <div>
+        <span class="tag tag-blue">02 / 認知心理學機制（一）</span>
+        <h2>認知負荷理論 (Cognitive Load Theory)</h2>
+        <p class="lead">為什麼面對艱澀論文或龐大考科時，一次讀 25 分鐘比連續苦讀 2 小時更有效？</p>
+        <div class="grid-2" style="margin-top: 1.1rem;">
+          <div class="card">
+            <h3>🧠 防止工作記憶超載 <span class="en-term">Working Memory Overload</span></h3>
+            <p>人類工作記憶容量極為有限。背誦專業知識時會產生高度<strong>內在認知負荷 (Intrinsic Cognitive Load)</strong>，25 分鐘的硬性停損點能確保大腦在認知資源耗盡前及時停止輸入 <span class="citation-badge">PMC 2025 綜述</span>。</p>
+          </div>
+          <div class="card" style="background: var(--accent-light); border-color: #bfdbfe;">
+            <h3 style="color: var(--accent);">💾 5 分鐘休息＝神經記憶鞏固 <span class="en-term">Memory Consolidation</span></h3>
+            <p>短暫休息並非浪費時間，而是讓大腦在「無新資訊干擾」的狀態下，將工作記憶中的暫存知識轉存進<strong>長期記憶 (Long-Term Memory)</strong> <span class="citation-badge">PMC 2025 綜述</span> <span class="citation-badge">BCU 2025</span>。</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-footer">
+        <span>Wiki 溯源：notes/wiki/concepts/cognitive-load-theory.md</span>
+        <span>2 / 9</span>
+      </div>
+    </section>
+
+    <!-- Slide 4: 認知心理學機制 (2) 自主學習與行為強化 -->
+    <section class="slide">
+      <div>
+        <span class="tag tag-blue">02 / 認知心理學機制（二）</span>
+        <h2>自主學習 (SRL) 與行為強化機制</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>🎯 自主學習理論 <span class="en-term">Self-Regulated Learning (SRL)</span></h3>
+            <p>透過事前使用<strong>活動清單 (Activity Inventory)</strong> 預估任務所需的番茄鐘數，並在事後比對「預估 vs. 實際」差距，能訓練大學生的<strong>後設認知 (Metacognition)</strong>，精準校準時間感知盲區 <span class="citation-badge">PMC 2025</span> <span class="citation-badge">Pomodoro 官網</span>。</p>
+          </div>
+          <div class="card">
+            <h3>🎁 行為強化與分散練習 <span class="en-term">Behavioral Reinforcement & Distributed Practice</span></h3>
+            <p>明確的「25 分鐘終點線」提供即時休息獎勵，降低啟動阻力；將學習分散為多個短區間（對比考前熬夜的<strong>集中練習 Massed Practice</strong>），能顯著提高長期記憶保留率 <span class="citation-badge">PMC 2025 綜述</span>。</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-footer">
+        <span>Wiki 溯源：notes/wiki/concepts/self-regulated-learning.md & behavioral-reinforcement.md</span>
+        <span>3 / 9</span>
+      </div>
+    </section>
+
+    <!-- Slide 5: 實證研究數據 -->
+    <section class="slide">
+      <div>
+        <span class="tag">03 / 實證研究數據背書</span>
+        <h2>BMC Medical Education 系統性綜述（2025）</h2>
+        <p class="lead">納入 32 項實證研究（總樣本數 N = 5,270，含隨機對照試驗 RCT）之量化結果 <span class="citation-badge">Ogut, 2025</span>：</p>
+        <div class="grid-3" style="margin-top: 1.2rem;">
+          <div class="card" style="text-align: center;">
+            <span class="stat-num">88%</span>
+            <p><strong>研究證實正向效益</strong><br>絕大多數跨學科實驗顯示對專注力與學習表現有顯著幫助。</p>
+          </div>
+          <div class="card" style="text-align: center;">
+            <span class="stat-num">-20%</span>
+            <p><strong>降低心理疲勞（RCT）</strong><br>強制結構化微休息，比「累了才自己休息」更能減輕大腦疲勞。</p>
+          </div>
+          <div class="card" style="text-align: center;">
+            <span class="stat-num">+12%</span>
+            <p><strong>主觀學習效率提升</strong><br>搭配數位計時工具時，學生參與度提升 10%–18%（p &lt; 0.01）。</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-footer">
+        <span>Wiki 溯源：notes/wiki/sources/01-pmc-scoping-review-2025.md</span>
+        <span>4 / 9</span>
+      </div>
+    </section>
+
+    <!-- Slide 6: 標準執行步驟 -->
+    <section class="slide">
+      <div>
+        <span class="tag tag-green">04 / 標準執行流程 (Standard Workflow)</span>
+        <h2>4 個番茄鐘為一組的黃金循環</h2>
+        <div class="cycle-bar">
+          <div class="block-work">🍅 25m<br>專注</div>
+          <div class="block-break">☕ 5m<br>休</div>
+          <div class="block-work">🍅 25m<br>專注</div>
+          <div class="block-break">☕ 5m<br>休</div>
+          <div class="block-work">🍅 25m<br>專注</div>
+          <div class="block-break">☕ 5m<br>休</div>
+          <div class="block-work">🍅 25m<br>專注</div>
+          <div class="block-long">🌿 15–30m<br>長休息</div>
+        </div>
+        <ul class="clean-list">
+          <li><strong>步驟 1 任務拆解：</strong>從今日待辦清單 (To Do Today Sheet) 挑選單一任務，將大專案切分為多個 25 分鐘單位 <span class="citation-badge">Pomodoro 官網</span> <span class="citation-badge">Todoist</span>。</li>
+          <li><strong>步驟 2 單一任務專注：</strong>計時期間嚴禁多工處理，關閉手機與無關網頁 <span class="citation-badge">Todoist</span>。</li>
+          <li><strong>步驟 3 強制離席休息：</strong>短休息喝水伸展；每 4 輪後的長休息（15–30 分鐘）應離開書桌走動或進食 <span class="citation-badge">BCU 2025</span>。</li>
+        </ul>
+      </div>
+      <div class="slide-footer">
+        <span>Wiki 溯源：notes/wiki/methods/standard-workflow.md</span>
+        <span>5 / 9</span>
+      </div>
+    </section>
+
+    <!-- Slide 7: 大學生備考與研究實戰策略 -->
+    <section class="slide">
+      <div>
+        <span class="tag tag-green">05 / 大學生與研究生實戰策略</span>
+        <h2>如何讓每 25 分鐘的學習效益最大化？</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>📖 嵌入實證高效學習法 <span class="citation-badge">BCU 2025</span></h3>
+            <ul class="clean-list" style="margin-top: 0.4rem;">
+              <li><strong>主動回憶 (Active Recall)：</strong>讀完段落後蓋上書本，強迫自己提取核心論點。</li>
+              <li><strong>默寫回想 (Blurting)：</strong>在白紙上快速寫下所有記憶重點，再對照講義補漏。</li>
+              <li><strong>間隔重複 (Spaced Repetition)：</strong>跨天分配番茄鐘複習重點卡片。</li>
+            </ul>
+          </div>
+          <div class="card" style="background: var(--secondary-light); border-color: #bce3dc;">
+            <h3 style="color: var(--secondary);">🎓 論文寫作與 ADHD 友善應用</h3>
+            <ul class="clean-list" style="margin-top: 0.4rem;">
+              <li><strong>降低論文啟動門檻：</strong>將「寫文獻回顧」拆成「先完成 1 個番茄鐘的段落大綱」 <span class="citation-badge">Verywell Mind</span>。</li>
+              <li><strong>ADHD 學習者輔助：</strong>短時段結構與明確休息點能有效減少分心與資訊過載 <span class="citation-badge">BCU 2025</span>。</li>
+              <li><strong>推薦工具：</strong>Pomofocus、Forest、Focus To-Do <span class="citation-badge">BCU 2025</span>。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="slide-footer">
+        <span>Wiki 溯源：notes/wiki/methods/student-study-strategies.md</span>
+        <span>6 / 9</span>
+      </div>
+    </section>
+
+    <!-- Slide 8: 適用邊界與常見誤區 -->
+    <section class="slide">
+      <div>
+        <span class="tag">06 / 適用邊界與常見誤區 (Drawbacks & Limits)</span>
+        <h2>避開「隱性疲勞」陷阱與彈性調整方案</h2>
+        <div class="grid-2">
+          <div class="card" style="border-left: 5px solid #dc2626;">
+            <h3 style="color: #dc2626;">⚠️ 誤區：覺得不累就跳過 5 分鐘休息</h3>
+            <p>研究證實結構化微休息旨在「預防疲勞累積」。若因順手而跳過休息連續工作，會導致後續專注力斷崖式下滑；時間一到必須強制休息 <span class="citation-badge">BCU 2025</span> <span class="citation-badge">PMC 2025</span>。</p>
+          </div>
+          <div class="card" style="border-left: 5px solid #2563eb;">
+            <h3 style="color: #2563eb;">🔧 彈性微調：心流 (Flow) 與高協作場景</h3>
+            <p>寫程式或深度推導時，25 分鐘響鈴可能打斷<strong>心流 (Flow)</strong>，建議改用客製化週期（如 <strong>50 分鐘專注 + 10 分鐘休息</strong>，即 <code>Marinara Timer</code> 模式）；高頻率開會時段則建議暫停使用 <span class="citation-badge">Verywell Mind 2026</span>。</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-footer">
+        <span>Wiki 溯源：notes/wiki/methods/drawbacks-and-limits.md</span>
+        <span>7 / 9</span>
+      </div>
+    </section>
+
+    <!-- Slide 9: 總結與行動清單 -->
+    <section class="slide cover-center">
+      <span class="tag">07 / 總結與立即行動</span>
+      <h2>用科學節奏掌控你的研究與備考進度</h2>
+      <div class="grid-3" style="width: 100%; text-align: left; margin: 1.2rem 0;">
+        <div class="card"><h3>1️⃣ 拆解並預估</h3><p>寫下今日唯一優先任務，預估需要幾個番茄鐘。</p></div>
+        <div class="card"><h3>2️⃣ 專注 25 分鐘</h3><p>結合主動回憶或寫作大綱，零干擾推進進度。</p></div>
+        <div class="card"><h3>3️⃣ 強制休息與反思</h3><p>響鈴即停、離席充電，記錄實際耗時優化下次預估。</p></div>
+      </div>
+      <p class="lead" style="font-size: 1.02rem;">本簡報所有論點皆可回溯至 <code>notes/wiki/</code> 知識庫與 5 篇原始文獻。</p>
+    </section>
+
+  </div>
+
+  <div class="controls">
+    <button class="btn" id="prevBtn" onclick="changeSlide(-1)">← 上一頁</button>
+    <span id="pageIndicator" style="font-weight: 600; color: var(--text-muted);">第 1 / 9 頁（支援鍵盤 ← → 切換）</span>
+    <button class="btn" id="nextBtn" onclick="changeSlide(1)">下一頁 →</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Pomodoro LLM Wiki 演進日誌（Log）
+## [2026-11-21] init | 初始化專案並重構為 GitHub Pages 部署結構
+- 將 `AGENTS.md`、`README.md`、`index.html`、`style.css`、`app.js` 置於最外層根目錄。
+- 將 LLM Wiki 知識庫完整收錄於 `notes/` 目錄下。
